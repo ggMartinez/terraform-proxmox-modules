@@ -11,6 +11,7 @@ resource "proxmox_vm_qemu" "proxmox-vm" {
   sockets = var.cpuSockets
   cpu = "host"
   memory = var.Memory
+  full_clone = var.fullClone
   scsihw = "virtio-scsi-pci"
   bootdisk = "scsi0"
   disk {
