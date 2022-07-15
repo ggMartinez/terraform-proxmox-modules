@@ -2,7 +2,7 @@ variable "sshKey" {}
 variable "name" {}
 variable "vmCount" {default = 1}
 variable "proxmoxHost" {default = "prosmos"}
-variable "templateName" {default = "centos7-template"}
+variable "templateName" {default = "centos7-custom"}
 variable "cpuCores"{default = "1"}
 variable "cpuSockets"{default = "1"}
 variable "Memory"{default = "1024"}
